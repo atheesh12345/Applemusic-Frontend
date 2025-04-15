@@ -1,0 +1,138 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@media (max-width: 768px) and (min-width: 200px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        gap:5px;
+        justify-content: center;
+        align-items: center;
+    }
+    .sidebar {
+    border-radius: 20px;
+      position: fixed;
+      
+      width: 90vw;
+      
+      margin-top: 5px;
+      height: 12vh;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      background-color: #1e293b; 
+      
+    }
+  
+    .sidebar div {
+      width: auto;
+      padding: 10px;
+    }
+  
+    .sidebar p {
+      display: none; /* Hide text, only show icons */
+    }
+
+    .audioPlayer{
+        position: fixed;
+        margin: 0;
+        width: 96vw;
+        height: 10vh;
+    }
+    .volume{
+        display: none;
+    }
+    .status{
+        display: none
+    }
+    .buttons{
+        display: flex;
+        flex-direction: row;
+        padding: 0%;
+        gap:0;
+    }
+    .text{
+        font-size: smaller;
+    }
+
+    .home{
+        height: 70vh;
+        margin: 0;
+        width: 90vw;
+        margin-top: 15vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .header{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        padding: 0;
+        margin: 0%;
+
+    }
+    .album{
+        height: 70vh;
+        margin: 0;
+        width: 90vw;
+        margin-top: 15vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .search{
+        height: 70vh;
+        margin: 0;
+        width: 90vw;
+        margin-top: 15vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .apple{
+        height: 2rem;
+        width: 2rem;
+        position: absolute;
+        left: 25px;
+    }
+
+
+    .playlist{
+        height: 70vh;
+        margin: 0;
+        width: 90vw;
+        margin-top: 15vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+   .song{
+    display: flex;
+    flex-direction: row;
+    width: 70vw;
+   }
+
+  }
+  
+  @media (max-width: 1342px) and (min-width: 768px){
+    .midscreen{
+        display: none
+    }
+
+    .sidebar{
+        width: 15vw;
+    }
+  }

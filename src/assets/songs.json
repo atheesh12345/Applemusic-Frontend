@@ -1,0 +1,137 @@
+[
+    {
+      "id": "2",
+      "songname": "Sawadeeka",
+      "song": "./audio/Sawadeeka.mp3",
+      "type": "pop",
+      "movie": "vidamuyarchi",
+      "musicDirector": "anirudh",
+      "image": "./images/vidamuyarchi.jpg"
+    },
+    {
+      "id": "3",
+      "songname": "Iraiva",
+      "song": "./audio/Iraiva.mp3",
+      "type": "melody",
+      "movie": "dragon",
+      "musicDirector": "Yuvan shankar raja",
+      "image": "./images/dragon.jpg"
+    },
+    {
+      "id": "4",
+      "songname": "vazhithunaiye",
+      "song": "./audio/Vazhithunaiye.mp3",
+      "type": "melody",
+      "movie": "dragon",
+      "musicDirector": "Yuvan shankar raja",
+      "image": "./images/dragon.jpg"
+    },
+    {
+      "id": "1",
+      "songname": "pathikichu",
+      "song": "./audio/pathikichu.mp3",
+      "type": "pop",
+      "movie": "vidamuyarchi",
+      "musicDirector": "anirudh",
+      "image": "./images/vidamuyarchi.jpg"
+    },
+    {
+      "id": "5",
+      "songname": "matta",
+      "song": "./audio/Matta.mp3",
+      "movie": "Goat",
+      "type": "pop",
+      "musicDirector": "Yuvan shankar raja",
+      "image": "./images/goat.jpeg"
+    },
+    {
+      "id": "6",
+      "songname": "ava enna enna",
+      "song": "./audio/Ava Enna Enna.mp3",
+      "movie": "Varanam aayiram",
+      "type": "sad",
+      "musicDirector": "harris",
+      "image": "./images/varanam.jpeg"
+    },
+    {
+      "id": "7",
+      "songname": "Mundhinam",
+      "song": "./audio/Mundhinam.mp3",
+      "movie": "Varanam aayiram",
+      "type": "melody",
+      "musicDirector": "harris",
+      "image": "./images/varanam.jpeg"
+    },
+    {
+      "id": "9",
+      "songname": "Chinna chinna",
+      "song": "./audio/Chinna Chinna.mp3",
+      "movie": "Goat",
+      "type": "melody",
+      "musicDirector": "Yuvan shankar raja",
+      "image": "./images/goat.jpeg"
+    },
+    {
+      "id": "10",
+      "songname": "Whistle podu",
+      "song": "./audio/Whistle Podu.mp3",
+      "movie": "Goat",
+      "type": "pop",
+      "musicDirector": "Yuvan shankar raja",
+      "image": "./images/goat.jpeg"
+    },
+    {
+      "id": "8",
+      "songname": "Nenjukkul",
+      "song": "./audio/Nenjukkul.mp3",
+      "movie": "Varanam aayiram",
+      "type": "melody",
+      "musicDirector": "harris",
+      "image": "./images/varanam.jpeg"
+    },
+    {
+      "id": "11",
+      "songname": "Hukum",
+      "song": "./audio/Hukum.mp3",
+      "movie": "Jailer",
+      "type": "pop",
+      "musicDirector": "Anirudh",
+      "image": "./images/jailer.jpeg"
+    },
+    {
+      "id": "12",
+      "songname": "Kavalaa",
+      "song": "./audio/Kaavaalaa.mp3",
+      "movie": "Jailer",
+      "type": "pop",
+      "musicDirector": "Anirudh",
+      "image": "./images/jailer.jpeg"
+    },
+    {
+      "id": "13",
+      "songname": "Rathamaarey",
+      "song": "./audio/Rathamaarey.mp3",
+      "movie": "Jailer",
+      "type": "melody",
+      "musicDirector": "Anirudh",
+      "image": "./images/jailer.jpeg"
+    },
+    {
+      "id": "14",
+      "songname": "Poopol Poopol",
+      "song": "./audio/Poopol Poopol.mp3",
+      "movie": "Minnale",
+      "type": "melody",
+      "musicDirector": "Harris",
+      "image": "./images/minnale.jpg"
+    },
+    {
+      "id": "15",
+      "songname": "venmathi",
+      "song": "./audio/Venmathi.mp3",
+      "movie": "Minnale",
+      "type": "melody",
+      "musicDirector": "Harris",
+      "image": "./images/minnale.jpg"
+    }
+  ]
