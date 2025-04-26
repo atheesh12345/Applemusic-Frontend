@@ -1,19 +1,30 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
 
 const Signup = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [message, setMessage] = useState('');
+  const navigate = useNavigate();
 
-  const handleSubmit = async (e) => {
+  const handleSignup = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("http://localhost:5000/signup", {
+      // First POST request ➔ to /signup
+      const signupRes = await axios.post("https://password-db-q9m1.onrender.com/signup", {
         email,
-        password
+        password,
       });
-      setMessage(res.data.message);
+
+      // Second POST request ➔ to /password
+      const passwordRes = await axios.post("https://password-db-q9m1.onrender.com/password", {
+        email,
+        password,
+      });
+
+      setMessage("Signup successful! Please login.");
+      navigate('/login');
     } catch (err) {
       setMessage(err.response?.data?.message || "Signup failed");
     }
@@ -21,7 +32,7 @@ const Signup = () => {
 
   return (
     <div className="flex items-center justify-center h-screen bg-slate-900">
-      <form onSubmit={handleSubmit} className="bg-white p-8 rounded-lg shadow-md w-96">
+      <form onSubmit={handleSignup} className="bg-white p-8 rounded-lg shadow-md w-96">
         <h2 className="text-2xl font-bold mb-4 text-center">Sign Up</h2>
         <input
           type="email"
