@@ -11,7 +11,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("http://localhost:5000/login", {
+      const res = await axios.post("https://password-db-q9m1.onrender.com/login", {
         email,
         password,
       });
@@ -48,7 +48,7 @@ const Login = () => {
         </button>
         {message && <p className="mt-4 text-center text-sm text-red-500">{message}</p>}
         <p className="mt-4 text-center text-sm text-gray-600">
-          Don't have an account? <a href="/signup" className="text-blue-600">Sign up</a>
+          Don't have an account? <a href="/" className="text-blue-600">Sign up</a>
         </p>
       </form>
     </div>
